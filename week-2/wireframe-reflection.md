@@ -1,6 +1,6 @@
 # Wireframe reflections
-![Index wireframe](/imgs/wireframe-index.png)
-![Blog wireframe](/imgs/wireframe-blog-index.png)
+![Index wireframe](wireframe-index.png)
+![Blog wireframe](wireframe-blog-index.png)
 
 What is a wireframe?
 [RS] A wireframe is a mockup of a web page or website you are planning to build. In other words a sketch.
