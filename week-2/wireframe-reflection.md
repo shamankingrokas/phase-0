@@ -18,4 +18,4 @@ What questions did you ask during this challenge? What resources did you find to
 [RS] I used google to find examples.
 
 Which parts of the challenge did you enjoy and which parts did you find tedious?
-[RS] Picking balsamiq as wireframing tool. I have used it before but some time ago.
+[RS] Picking balsamiq as wireframing tool. I have used it before but it has been some time.
