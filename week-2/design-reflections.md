@@ -1,5 +1,5 @@
 # Sitemap for personal website
-![Sitemap](/imgs/sitemap.png)
+![Sitemap](imgs/sitemap.png)
 
 What are the 6 Phases of Web Design?
 
