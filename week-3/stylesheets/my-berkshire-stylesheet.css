@@ -1,0 +1,39 @@
+body {
+  color: #000080;
+  background-color: #ffffff;
+}
+
+/***** Header *******/
+header {
+  text-align: center;
+}
+h1, h2, h3 {
+  margin: 3px;
+}
+
+/***** Main *******/
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+li {
+  padding: 10px;
+}
+a {
+  color: #800080;
+}
+a:visited {
+  color: #ff0000;
+}
+.description {
+  font-size: 10px;
+}
+
+/***** Footer *******/
+footer {
+  font-size: 12px;
+}
+.center {
+  text-align: center;
+}
