@@ -37,3 +37,21 @@ footer {
 .center {
   text-align: center;
 }
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+[RS] To keep CSS consisten across multiple pages. Pages also load faser.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+[RS] I used Google and found ul columns property.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+[RS] Just basics, try to always keep it as simple as possible.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+[RS] Only classes, no need for id's. I needed to target specific elements inside the tags.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+[RS] Ours because it was written in way way less lines and easier to read. Plus the original site was in table hell.
+
+*/
