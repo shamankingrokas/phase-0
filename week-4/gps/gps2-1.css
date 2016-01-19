@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
   height: 120px;
   border-bottom: 4px solid gray;
@@ -28,3 +29,8 @@ footer {
   padding-top: 25px;
   text-align: center;
 }
+=======
+body {
+  background-color: green;
+}
+>>>>>>> master
