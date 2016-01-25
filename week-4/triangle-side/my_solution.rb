@@ -1,3 +1,8 @@
+
+# I worked on this challenge with Tori.
+
+# Your Solution Below
+
 def valid_triangle? (side1, side2, side3)
   if side1 <= 0 || side2 <= 0 || side 3 <= 0
     return false
