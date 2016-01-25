@@ -46,15 +46,13 @@ puts array
 
 
 # 5. sentence_maker initial solution
-numbers = ['Hello' , 'my' , 'name', 'is', 'Rocky']
-def total(words)
-  sum = 0
-  words.each { |x| sum += x.to_i}
-  return sum
+def sentence_maker(words)
+  full_sentence = ''
+  words.each { |x| full_sentence += ' ' + x.to_s }
+  return full_sentence.lstrip.capitalize + '.'
 end
-
-sentence = total(words)
-puts sentence
+sentence=['hi', 'hello', 'hola']
+puts sentence_maker(sentence)
 
 
 
