@@ -1,15 +1,15 @@
 # Define a Hash
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge by myself.
 
 
 # Your Solution Below
 
 # my_info is empty to start.  Edit this!
 my_info = {
-  :first_name => "Rocky"
-  :last_name => "Simkonis"
-  :hometown => "Kaunas"
+  :first_name => "Rocky",
+  :last_name => "Simkonis",
+  :hometown => "Kaunas",
   :age => 22
 }
 
