@@ -26,29 +26,31 @@
 =end
 
 
-# 1. Initial Solution
+#1. Initial Solution
 def separate_comma(integer)
-  integer_str = integer.to_s
-  if integer_str.length <= 3
-    return integer_str
+  int_arr = integer.to_s.split('').reverse
+  final_string = ""
+  int_arr_counter = 1
+
+  if int_arr.length <= 3
+    return integer.to_s
   else
-    start = integer_str.length % 3
-    final = integer_str[0..integer_str.length-1]
-    x = final
-    integer_str.each do |start|
-      if integer_str.length % 3 == 0
-        integer_str.insert(",")
+    int_arr.each do |index|
+      final_string << index
+      if int_arr_counter % 3 == 0
+        final_string << ","
       end
+      int_arr_counter += 1
     end
   end
-  return integer_str
+  return final_string.reverse
 end
 #integer_str.length >= 4
 
 p separate_comma(0)       # => "0"
 p separate_comma(100)     # => "100"
 p separate_comma(1000)    # => "1,000"
-
+p separate_comma(1000000) # => "1,000,000"
 
 # 2. Refactored Solution
 
@@ -56,3 +58,19 @@ p separate_comma(1000)    # => "1,000"
 
 
 # 3. Reflection
+=begin
+
+What was your process for breaking the problem down? What different approaches did you consider?
+[RS] I started treating it as a string, but that did not work so I changed to treating as an array.
+
+Was your pseudocode effective in helping you build a successful initial solution?
+[RS] Not this time.
+
+What new Ruby method(s) did you use when refactoring your solution? Describe your experience of using the Ruby documentation to implement it/them (any difficulties, etc.). Did it/they significantly change the way your code works? If so, how?
+[RS] .map, reverse
+
+How did you initially iterate through the data structure?
+[RS] .each method
+Do you feel your refactored solution is more readable than your initial solution? Why?
+[RS Yes]
+=end
