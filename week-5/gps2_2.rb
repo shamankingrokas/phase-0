@@ -25,10 +25,8 @@ end
 
 # Method to add an item to a list
 def add_item(list, grocery, quantity)
-
   list[grocery] = quantity
-
-  p list
+  # return list
 end
 # input: item name and optional quantity
 # steps:
@@ -37,8 +35,6 @@ end
 # Method to remove an item from the list
 def remove_item(list, grocery)
   list.delete(grocery)
-
-  p list
 end
 
 # input:
@@ -47,11 +43,7 @@ end
 
 # Method to update the quantity of an item
 def update_quantity(list, grocery, quantity)
-
   list[grocery] = quantity
-
-  p list
-
 end
 # input:
 # steps:
@@ -59,7 +51,9 @@ end
 
 # Method to print a list and make it look pretty
 def print_list(list)
-  p list
+  list.each do |item, quantity|
+    puts "#{item}" + " : " + "#{quantity}"
+  end
 end
 # input:
 # steps:
@@ -69,7 +63,30 @@ end
 
 # DRIVER CODE
 test_grocery_list = create_list("apples oreos bread")
-add_item(test_grocery_list, "cake", 2)
-remove_item(test_grocery_list, "cake")
-update_quantity(test_grocery_list, "oreos", 2)
+p add_item(test_grocery_list, "cake", 2)
+p remove_item(test_grocery_list, "cake")
+p update_quantity(test_grocery_list, "oreos", 2)
 print_list(test_grocery_list)
+
+# Reflection
+=begin
+
+What did you learn about pseudocode from working on this challenge?
+[RS] The steps needed to take on completing the challenges.
+
+What are the tradeoffs of using Arrays and Hashes for this challenge?
+[RS] Hashes seem easier when you have a question and answer type of scenario. And in this case the question was item and answer was quantity.
+
+What does a method return?
+[RS] Last item of the code by default, or what is specified by the return statement.
+
+What kind of things can you pass into methods as arguments?
+[RS] Hashes, arrays, integers, floats, strings.
+
+How can you pass information between methods?
+[RS] Passing them as arguments.
+
+What concepts were solidified in this challenge, and what concepts are still confusing?
+[RS] Using hashes was deffinetely solidified.
+
+end
