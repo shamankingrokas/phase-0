@@ -36,25 +36,23 @@ class GuessingGame
   def solved?
 
   end
-
-
 end
-game = GuessingGame.new rand(100)
-last_guess  = nil
-last_result = nil
+# game = GuessingGame.new rand(100)
+# last_guess  = nil
+# last_result = nil
 
-until game.solved?
-  unless last_guess.nil?
-    puts "Oops!  Your last guess (#{last_guess}) was #{last_result}."
-    puts ""
-  end
+# until game.solved?
+#   unless last_guess.nil?
+#     puts "Oops!  Your last guess (#{last_guess}) was #{last_result}."
+#     puts ""
+#   end
 
-  print "Enter your guess: "
-  last_guess  = gets.chomp.to_i
-  last_result = game.guess(last_guess)
-end
+#   print "Enter your guess: "
+#   last_guess  = gets.chomp.to_i
+#   last_result = game.guess(last_guess)
+# end
 
-puts "#{last_guess} was correct!"
+# puts "#{last_guess} was correct!"
 
 game = GuessingGame.new(10)
 
