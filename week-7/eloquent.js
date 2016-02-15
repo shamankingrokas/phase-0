@@ -4,17 +4,39 @@
 
 // Program Structure
 // Write your own variable and do something to it.
-
+var myName = "Rokas";
+console.log(myName);
 
 
 
 // Complete one of the exercises: Looping a Triangle, FizzBuzz, or Chess Board
-
+// Fizz buzz
+for (var i = 1; i <= 100; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    console.log("FizzBuzz", i);
+  }
+  else if (i % 3 === 0) {
+    console.log("Fizz", i);
+  }
+  else if (i % 5 === 0) {
+    console.log("Buzz", i);
+  }
+  else {
+    console.log(i);
+  }
+}
 
 
 // Functions
 
 // Complete the `minimum` exercise.
+var min = function(arg1, arg2) {
+  if (arg1 < arg2) {
+    return arg1;
+  } else {
+    return arg2;
+  }
+};
 
 
 
@@ -35,32 +57,32 @@ Identify two similarities and two differences between JavaScript and Ruby syntax
 
 Ch. 2: Program Structure (Links to an external site.)
 What is an expression?
-[RS]
+[RS] A statement that can be executed.
 
 What is the purpose of semicolons in JavaScript? Are they always required?
-[RS]
+[RS] To terminate an action. Not always, but in many cases can produce unexpected behaviours.
 
 What causes a variable to return undefined?
-[RS]
+[RS] Not being a number.
 
 Write your own variable and do something to it in the eloquent.js file.
-[RS]
+[RS] Done.
 
 What does console.log do and when would you use it? What Ruby method(s) is this similar to?
-[RS]
+[RS] To print the result to the screen. It is similar to puts.
 
 
 Write a short program that asks for a user to input their favorite food. After they hit return, have the program respond with "Hey! That's my favorite too!" (You will probably need to run this in the Chrome console (Links to an external site.) rather than node since node does not support prompt or alert). Paste your program into the eloquent.js file.
-[RS]
+[RS] Done.
 
 Describe while and for loops
-[RS]
+[RS] For loop is different from while loop as it accepts the counter, intializer, in increment counters in a single line.
 
 What other similarities or differences between Ruby and JavaScript did you notice in this section?
-[RS]
+[RS] Flow control is the same. In ruby we cannot use ++ or += as we can in javascript.
 
 Complete at least one of the exercises (Looping a Triangle, FizzBuzz, of Chess Board) in the eloquent.js file.
-[RS]
+[RS] Done.
 
 
 Ch. 3: Functions (Links to an external site.) (Skip the sections on closure and recursion)
@@ -68,13 +90,13 @@ What are the differences between local and global variables in JavaScript?
 [RS]
 
 When should you use functions?
-[RS]
+[RS] When something is being done more than once. Also to break down code into readable terms.
 
 What is a function declaration?
-[RS]
+[RS] Intitializing a function into a variable.
 
 Complete the minimum exercise in the eloquent.js file.
-[RS]
+[RS] Done.
 
 
 
