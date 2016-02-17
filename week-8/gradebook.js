@@ -159,7 +159,17 @@ gradebook.getAverage = function(name) {
 // __________________________________________
 // Reflect
 
+/*
+What did you learn about adding functions to objects?
+[RS] It is a tedious process because targeting the right element is now always the easiest task.
 
+How did you iterate over nested arrays in JavaScript?
+[RS] For loops and bracket notation.
+
+Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+Yes, for in each loops. That helped a lot while iterating through objects.
+
+*/
 
 
 
