@@ -126,7 +126,18 @@ console.log(officers);
 
 // __________________________________________
 // Reflection
+/*
+What did you learn about iterating over nested objects in JavaScript?
+[RS] It can be very initmidating and difficult. Learning the difference between bracket and dot notation helps signicicantly.
 
+Were you able to find useful methods to help you with this?
+[RS] Yes, the for each loop.
+
+
+What concepts were solidified in the process of working through this challenge?
+[RS] Using objects in javascript and updating count values.
+
+*/
 
 
 
