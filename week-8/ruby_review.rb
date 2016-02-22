@@ -82,8 +82,7 @@ puts "Adding a banana pez."
 super_mario.add_pez("banana")
 puts "Now you have #{super_mario.pez_count} pez!"
 puts "Oh, you want one do you?"
-super_mario.get_pez
-puts "The pez flavor you got is: #{@last_eaten }"
+puts "The pez flavor you got is: #{super_mario.get_pez}"
 puts "Now you have #{super_mario.pez_count} pez!"
 
 
